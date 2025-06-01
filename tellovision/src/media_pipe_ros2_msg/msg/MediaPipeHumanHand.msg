@@ -1,2 +1,0 @@
-HandPoint[21] right_hand_key_points
-HandPoint[21] left_hand_key_points
