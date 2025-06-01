@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>face_tracker</name>
+  <version>0.1.0</version>
+  <description>ROS2 face‐tracking control for Tello using MediaPipe</description>
+  <maintainer email="younghu27@gmail.com">younghu27</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <!-- no rclpy dependency needed since we don’t use it here -->
+
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>mediapipe</exec_depend>
+  <exec_depend>djitellopy</exec_depend>
+  <exec_depend>numpy</exec_depend>
+
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
